@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes demo {
+            10% {
+                background: linear-gradient(RED, AQUA);
+            }
+
+            20% {
+                background:radial-gradient(rgb(157, 0, 255), rgb(13, 0, 255));
+            }
+
+            30% {
+                background: linear-gradient(rgb(200, 255, 0), rgb(255, 0, 212));
+            }
+
+            40% {
+                background: radial-gradient(rgb(0, 179, 255), rgb(55, 255, 0));
+            }
+
+            50% {
+                background: linear-gradient(rgb(194, 123, 227), rgb(0, 102, 255));
+            }
+             60% {
+                background: radial-gradient(rgb(8, 104, 148), rgb(210, 74, 103));
+            }
+             70% {
+                background: linear-gradient(rgb(144, 2, 68), rgb(238, 172, 103));
+            }
+            80% {
+                background: radial-gradient(rgb(228, 140, 215), rgb(1, 150, 108));
+            }
+            90% {
+                background: linear-gradient(rgb(104, 68, 162), rgb(96, 57, 236));
+            }
+            100% {
+                background: radial-gradient(rgb(223, 102, 104), rgb(2, 53, 108));
+            }
+            
+        }
+
+        #gred {
+            height: 1000px;
+            animation-name: demo;
+            animation-duration: 10s;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="gred">
+        animation effect
+    </div>
+</body>
+
+</html>
